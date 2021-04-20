@@ -30,7 +30,6 @@ $(document).ready(() => {
     $("#filtered-cards-list").empty();
     $(".total").empty();
     const search = $("#keyword-search").val();
-    // if (search) search = search.split(" ").map((e) => e.charAt(0).toUpperCase() + e.slice(1))
     const topic = $("#topic-options option:selected ").val();
     let sortBy = $("#sort-options option:selected").val();
     if (sortBy) sortBy = sortBy.split(" ").map((e) => e.charAt(0).toLowerCase() + e.slice(1)).join("_")
