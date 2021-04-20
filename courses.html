@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+  <header>
+      <div class="header-container-courses container-fluid border-bottom pb-5">
+        <div class="header-nav">
+          <nav class="navbar navbar-light d-flex align-items-center">
+            <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+              <span class="holberton_school-icon-menu"></span>
+            </button>
+            <a href="./homepage.html" class="navbar-header mr-5 mr-xs-0 mr-md-0">
+              <div class="navbar-brand smile"></div>
+              <div class="navbar-brand logo mt-3"></div>
+            </a>
+            <ul class="justify-content-sm-center justify-content-md-end navbar-nav navbar-expand navbar-right mt-2 collapse d-sm-flex" id="collapse-one">
+              <li class="navbar-item px-3" >
+                <a class="nav-link text-white" href="./xml-courses.html">COURSES</a>
+              </li>
+              <li class="navbar-item px-3">
+                <a class="nav-link text-white" href="./xml-pricing.html">PRICING</a>
+              </li>
+              <li class="navbar-item px-3">
+                <a class="nav-link text-white" href="#">LOGIN</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container text-white pt-4">
+          <div class="d-none d-md-flex justify-content-center align-items-center">
+            <h2 class="mr-3 text-center"><< Don't cry because it's over. <span>Smile</span> because it happened. >></h2>
+          </div>
+        </div>
+    </div>
+  </header>
+  <section class="filters py-4">
+    <div class="container">
+      <div class="text-white d-block d-md-flex justify-content-center">
+        <div class="col-12 col-md-5 col-lg-4 px-3 mr-sm-3">
+          <p class="mb-1 mt-2">KEYWORDS</p>
+          <div class="textarea d-flex">
+            <span class="holberton_school-icon-search_2"></span>
+            <input type="text" id="keyword-search" class="form-control form-control-lg mb-resp rounded-0 pl-5 search" placeholder=" Search by keywords"/>
+          </div>
+        </div>
+        <div class="form-group col-12 col-md-3 col-lg-3 mx-sm-3">
+          <label class="mb-1 mt-2">TOPIC</label>
+          <div class="input-group col-12 px-0">
+            <select id="topic-options" class="form-control form-control-lg mb-resp rounded-0 pl-5" aria-expanded="false">
+              <span class="selected"></span>
+            </select>
+          </div>
+        </div>
+        <div class="form-group col-12 col-md-3 col-lg-3 ml-sm-3">
+          <label class="mb-1 mt-2">SORT BY</label>
+          <div class="input-group col-12 px-0">
+            <select id="sort-options" class="form-control form-control-lg mb-resp rounded-0 pl-5 " aria-haspopup="true" aria-expanded="false">
+              <span class="selected"></span>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="courses-block" class="px-lg-5 py-5 mb-5">
+    <div class="container">
+      <div class="loader" id="courses-loader"></div>
+      <div class="total"></div>
+      <div id="filtered-cards-list" class="row"></div>
+    </div>
+  </section>
+  <footer id="footer" class="pt-5 pb-1">
+    <div class="container">
+      <div class="d-sm-block d-md-flex justify-content-between align-items-center">
+        <div class="col-sm-12 col-md-6 text-center text-md-left">
+          <img class="mr-3" src="images/smile_off.png" width="45" height="35" alt=""/>
+          <img src="images/logo.png" width="200" height="50" alt="" />
+        </div>
+        <ul class="d-flex justify-content-center col-sm-12 col-md-4 col-lg-3 mt-3">
+          <li class="social-item mx-3">
+            <a href="https://www.facebook.com/HolbertonSchool/" class="social-link">
+              <span class="holberton_school-icon-ic_facebook"></span>
+            </a>
+          </li>
+          <li class="social-item mx-3">
+            <a href="https://twitter.com/holbertonschool" class="social-link">
+                <span class="holberton_school-icon-ic_twitter"></span>
+            </a>
+          </li>
+          <li class="social-item mx-3">
+            <a href="https://www.instagram.com/holbertonschool/" class="social-link">
+                <span class="holberton_school-icon-ic_instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-center text-muted pt-5">
+        <p>&copy; smileschool 2020</p>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>

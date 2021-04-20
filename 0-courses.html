@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+  <header>
+      <div class="header-container-courses container-fluid border-bottom pb-5">
+        <div class="header-nav">
+          <nav class="navbar navbar-light d-flex align-items-center">
+            <button class="btn-collapse" type="button" data-toggle="collapse" data-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+              <span class="holberton_school-icon-menu"></span>
+            </button>
+            <a href="./0-homepage.html" class="navbar-header mr-5 mr-xs-0 mr-md-0">
+              <div class="navbar-brand smile"></div>
+              <div class="navbar-brand logo mt-3"></div>
+            </a>
+            <ul class="justify-content-sm-center justify-content-md-end navbar-nav navbar-expand navbar-right mt-2 collapse d-sm-flex" id="collapse-one">
+              <li class="navbar-item px-3" >
+                <a class="nav-link text-white" href="./0-courses.html">COURSES</a>
+              </li>
+              <li class="navbar-item px-3">
+                <a class="nav-link text-white" href="./0-pricing.html">PRICING</a>
+              </li>
+              <li class="navbar-item px-3">
+                <a class="nav-link text-white" href="#">LOGIN</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container text-white pt-4">
+          <div class="d-none d-md-flex justify-content-center align-items-center">
+            <h2 class="mr-3 text-center"><< Don't cry because it's over. <span>Smile</span> because it happened. >></h2>
+          </div>
+        </div>
+    </div>
+  </header>
+  <section class="search py-4">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-md-12 col-lg-4">
+          <p class="mb-1 mt-2">KEYWORDS</p>
+          <div class="textarea d-flex">
+            <span class="holberton_school-icon-search_2"></span>
+            <input type="text" class="form-control form-control-lg mb-resp rounded-0 pl-5" placeholder=" Search by keywords"/>
+          </div>
+        </div>
+        <div class="menu col-md-6 col-lg-4">
+          <p class="mb-1 mt-2">TOPIC</p>
+          <div class="btn-group col-12 px-0">
+            <button class="btn btn-filter btn-lg text-white topic dropdown-toggle rounded-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="selected">Novice</span>
+            </button>
+            <ul class="dropdown-menu border border-dark rounded-0 col-12">
+              <li><a href="#" class="dropdown-item">Novice</a></li>
+              <li><a href="#" class="dropdown-item">Intermediate</a></li>
+              <li><a href="#" class="dropdown-item">Expert</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu col-md-6 col-lg-4">
+          <p class="mb-1 mt-2">SORT BY</p>
+          <div class="btn-group col-12 px-0">
+            <button class="btn btn-filter btn-lg text-white sortby dropdown-toggle rounded-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="selected">Most Popular</span>
+            </button>
+            <ul class="dropdown-menu border border-dark rounded-0 col-12">
+              <li><a href="#" class="dropdown-item">Most Popular</a></li>
+              <li><a href="#" class="dropdown-item">Most Recent</a></li>
+              <li><a href="#" class="dropdown-item">Most Viewed</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="courses px-lg-5 py-4">
+    <p class="ml-2 pl-4 text-secondary">11 videos</p>
+    <div class="d-flex flex-wrap m-auto justify-content-start row">
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_4.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Diagonal Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_3.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Sad Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_1.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Natural Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_2.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Happy Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_4.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Diagonal Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_3.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Sad Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_1.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Natural Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_2.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Happy Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_4.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Diagonal Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_3.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Sad Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <div class="img-wrap d-flex align-items-center justify-content-center">
+            <img src="images/thumbnail_1.jpg" alt="" class="img-fluid"/>
+            <div class="play-button row justify-content-center">
+              <img class="purple-text" src="images/play.png" alt="" />
+            </div>
+          </div>
+          <h4>Natural Smile</h4>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dolorum quia asperiores iste, ex illo consectetur.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-2 col-md-4">
+              <img src="images/profile_1.jpg" alt="" class="img profile-img rounded-circle">
+
+            </div>
+            <div class="col purple-text">
+              Phillip Massey
+            </div>
+          </div>
+          <div class="row justify-content-between pt-3">
+            <div class="col stars">
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_on.png" alt="" class="stars" />
+              <img src="images/star_off.png" alt="" class="stars" />
+            </div>
+            <div class="col-4">
+              <p class="purple-text text-right">8 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="pt-5 pb-3">
+    <div class="container">
+      <div class="d-sm-block d-md-flex justify-content-between align-items-center">
+        <div class="col-sm-12 col-md-6 text-center text-md-left">
+          <img class="mr-3" src="images/smile_off.png" width="45" height="35" alt=""/>
+          <img src="images/logo.png" width="200" height="50" alt="" />
+        </div>
+        <ul class="d-flex justify-content-center col-sm-12 col-md-4 col-lg-3 mt-3">
+          <li class="social-item mx-3">
+            <a href="https://www.facebook.com/HolbertonSchool/" class="social-link">
+              <span class="holberton_school-icon-ic_facebook"></span>
+            </a>
+          </li>
+          <li class="social-item mx-3">
+            <a href="https://twitter.com/holbertonschool" class="social-link">
+                <span class="holberton_school-icon-ic_twitter"></span>
+            </a>
+          </li>
+          <li class="social-item mx-3">
+            <a href="https://www.instagram.com/holbertonschool/" class="social-link">
+                <span class="holberton_school-icon-ic_instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-center text-muted pt-5">
+        <p>&copy; smileschool 2020</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
